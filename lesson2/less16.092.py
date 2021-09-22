@@ -27,7 +27,6 @@ def add_to_book(name, p):  #номер в словарь
 print(add_to_book(name, p))
 
 
-
 while type(name) == str:
      name = input("Введите имя ")
      while type(number) == str:

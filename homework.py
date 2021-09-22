@@ -1,4 +1,6 @@
-def even(n):  # n - это число до которого будет идти счет
+def even(n):  
+
+    
     i = 2
     array = list()
     while i <= n:

@@ -8,7 +8,7 @@ def unique(list_):
 print (unique(list_))
 
 
-list1 = [1, 2, 3, 4]
+list1 = [1, 2, 3, 4] # список с общими значениями
 list2 = [1, 5, 3, 6]
 
 def rer(list1, list2):

@@ -31,4 +31,4 @@ def top_10(words_dict):
     items = sorted(items, key=lambda x : x[1], reverse= True)
     for word, counter in items[:10]:
         print(word, ': ', counter)
-print(top_10(words_list))
+print(top_10(words_list    ))

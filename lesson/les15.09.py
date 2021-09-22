@@ -60,5 +60,5 @@ print(set1)
 set1.pop() #удаляет первый элемент(не упор, поэтому не знаем какой)
 print(set1)
 
-set1.clear()
+set1.clear() #чистит множество
 print(set1)
