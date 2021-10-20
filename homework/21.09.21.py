@@ -4,12 +4,12 @@ class Game():
        pass
     def play(self):
         p = random.randrange(0, 10)
-        new_n1 = self.n1 + e
-        new_n2 = self.n2 + g
-        new_n3 = self.n3 + o
-        new_n4 = self.n4 + r
-        new_n5 = self.n5 + k
-        return new_n1, new_n2, new_n3, new_n4, new_n5
+  #      new_n1 = self.n1 + e
+   #     new_n2 = self.n2 + g
+   #     new_n3 = self.n3 + o
+   #     new_n4 = self.n4 + r
+   #     new_n5 = self.n5 + k
+    #    return new_n1, new_n2, new_n3, new_n4, new_n5
     def play2(self, cards):
         cable_card = random.randrange(10)
         winners = []
