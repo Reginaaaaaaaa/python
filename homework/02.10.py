@@ -1,3 +1,5 @@
+import os
+
 file = input('Введите файл: ')
 try:
     g = int(input('Балл: '))
@@ -5,7 +7,7 @@ except Exception as err:
     print('Ошибка! Введите целое число ', err)
     quit()
 try:
-    f = open(file, 'r')
+    f = open('D:\\Python\\{}'.format(file), 'r')
 except Exception as err:
     print('Файл не найден', err)
     quit()
@@ -18,5 +20,5 @@ for line in lines:
         c = int(b)
     except Exception as err:
         print('В файле должны быть указаны целые числа!', err)
-    if c <= g:
-        print(p [0:2], b)
+    if c >= g:
+        print(p [0:1], b)
