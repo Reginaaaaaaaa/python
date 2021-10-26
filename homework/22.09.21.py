@@ -7,7 +7,6 @@ def fac(n):
         return 1
     return fac(n-1) * n
  
- 
 print(fac(6))
 
 
@@ -29,4 +28,4 @@ def ord(n):
         return [n]
     return ord(n // 10)+[n % 10]
 
-print(ord(234))
+print(ord(995))

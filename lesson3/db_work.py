@@ -24,7 +24,6 @@ def edit(id, brand, value):
     print("Updated successfully")
     sqliteConnection.commit()
     cursor.close()
-    sqliteConnection.close()
 def readSqliteTable():
     try:
         print(p)
@@ -65,11 +64,11 @@ def call(user_a):
         onlyfiles = [f for f in listdir("D://Databases//") if
                              isfile(join("D://Databases//", f))]
         [print(i + 1, ':', onlyfiles) for i, onlyfiles in zip(range(len(onlyfiles)), onlyfiles)]
-        print('Or press q for Exit')
+        print('Нажмите q для выхода')
         global p
-        p = input('Enter the preferred DB: ')
+        p = input('Введите имя БД: ')
         if p == 'q':
-            print('Sayonara!')
+            print('До свидания')
             quit()
 
 call(user_a)
